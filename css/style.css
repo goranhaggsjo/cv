@@ -1,0 +1,85 @@
+/*
+ * CSS för Cv dokument
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:grey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	background: none repeat scroll 0 0 grey;
+	margin:0 auto;
+	width: 960px;
+}
+
+#top {
+    margin: 0px auto 5px auto; /* top, right, bottom, left */
+    color:  white;
+}
+
+#text {
+	margin-top: 50px;
+	clear: both;
+}
+#text p {
+	margin-bottom: 10px;
+}
+
+.cheers {
+	padding-left: 30px;
+}
+
+#lightmenu ul {
+	list-style: none;
+}
+
+.light {
+	border: 1px solid black;
+	width: 100px;
+	float: left;
+	color: white;
+	text-align: center;
+}
+
+.light:hover {
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.nolink {
+	border: 1px solid black;
+	color: white;
+	text-align: center;
+	width: 100px;
+	float: left;
+}
+
+#nolight {
+	border: 1px solid black;
+	color: white;
+	text-align: center;
+}
+
+.company {
+	padding-left: 10px;
+}
+
+.did {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.fancylist {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.page3 {
+	padding-left: 10px;
+}
