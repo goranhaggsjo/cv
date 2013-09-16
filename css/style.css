@@ -7,12 +7,12 @@
 }
 
 body {
-    background-color:grey;
+    background-color: #474747;
     font-family: Helvetica, Arial, sans-serif;
 }
 
 #wrapper {
-	background: none repeat scroll 0 0 grey;
+	background: none repeat scroll 0 0 #A3A3CC;
 	margin:0 auto;
 	width: 960px;
 }
@@ -53,17 +53,26 @@ body {
 }
 
 .nolink {
-	border: 1px solid black;
+	border-color: black black #A3A3CC black;
+	border-style: solid;
+	border-width: 2px 2px 1px 2px;
 	color: white;
 	text-align: center;
 	width: 100px;
 	float: left;
 }
 
+#nolightleft {
+	border:1px solid black;
+	float: left;
+	width: 20px;
+}
+
 #nolight {
 	border: 1px solid black;
-	color: white;
 	text-align: center;
+	float: left;
+	width: 528px;
 }
 
 .company {
@@ -81,5 +90,6 @@ body {
 }
 
 .page3 {
+	margin-top: 10px;
 	padding-left: 10px;
 }
